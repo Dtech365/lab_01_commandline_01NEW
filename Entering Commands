@@ -1,0 +1,211 @@
+Lab - Entering Commands
+==========
+Follow the instructions line-by-line.  
+
+* Type in the commands as is, but ignore the beginning prompt.  
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* "No output" or "nothing happens" are valid answers to any of the questions.
+==========
+
+
+
+==========
+1. Open Terminal.  Type:
+
+$ ls<ENTER>
+
+Copy and paste the output of ls below.
+----------
+Applications				Pictures
+DereK.T					Public
+Derek Tolentino concept map for AI.docx	README.md
+DerekT					buzz.html
+DerekTolentino				copy_to_backup.sh
+Dereks eassy map.pdf			copy_to_backup.sh.
+Desktop					greetings.html
+Documents				lab-06-javascript-conditionals
+Downloads				lab-09-counting
+Google Drive				lab-10-functions
+Library					lab-11-canvas
+Movies					lab-12-html
+Music					test
+
+
+==========
+2a. Type: 
+
+$ ls D<TAB>
+
+What happens?  Describe it below.
+----------
+A whole bunch of files show up that start with the letter D appear
+
+
+==========
+2b. Press <TAB> one more time.  Copy and paste the output below.
+----------
+DereK.T/
+Derek Tolentino concept map for AI.docx
+DerekT/
+DerekTolentino/
+Dereks eassy map.pdf
+Desktop/
+Documents/
+Downloads/
+FOR-WAHBAP-FCOM:~ Dtboss360$ ls D
+DereK.T/
+Derek Tolentino concept map for AI.docx
+DerekT/
+DerekTolentino/
+Dereks eassy map.pdf
+Desktop/
+Documents/
+Downloads/
+
+
+==========
+2c. Now press <ENTER>. Copy and paste the output below.
+----------
+ No such file or directory
+
+
+==========
+3.  Type:
+
+$ ls -l Documents<ENTER>
+
+Copy and paste the first *two lines* of output below.
+----------
+total 1104064
+-rw-------@ 1 Dtboss360  staff     149622 Jun 10  2017 18157512_1407116656045819_4553742674092246524_n-1.jpg
+-rw-r--r--  1 Dtboss360  staff     177439 Sep 18 18:08 DRUNK RICH GUY.c4d
+-rw-r--r--@ 1 Dtboss360  staff   30290536 Jan 14  2018 DT Logo Intro_V (Converted).mov
+-rw-r--r--@ 1 Dtboss360  staff  522677601 May 12  2017 DTRobt (360).mov
+-rw-r--r--@ 1 Dtboss360  staff      83831 Nov 25 21:49 Derek Tolentino concept map for AI.docx
+-rw-r--r--@ 1 Dtboss360  staff      95639 Nov 25 21:51 Derek Tolentino concept map for AI.pdf
+drwxr-xr-x  5 Dtboss360  staff        170 Dec 14 14:37 GitHub
+drwxr-xr-x  5 Dtboss360  staff        170 Feb 19  2017 Microsoft User Data
+-rw-r--r--@ 1 Dtboss360  staff    2020147 Apr 24  2017 Presentation1.pptx
+-rw-r--r--@ 1 Dtboss360  staff    9523610 Feb 20  2017 Scan.pdf
+-rw-r--r--  1 Dtboss360  staff     206702 Feb 20  2017 Scan.tiff
+drwxrwxrwx  3 Dtboss360  staff        102 Feb 19  2017 Time Inc. Technology Documents
+-rw-r--r--  1 Dtboss360  staff        819 Mar 27  2017 iPad Release Notes.rtf
+-rw-r--r--@ 1 Dtboss360  staff      26651 Feb 23  2017 ups.pdf
+
+
+==========
+4.  Type:
+
+$ ls -a Documents
+
+Copy and paste the first *two lines* of output below.
+----------
+.
+..
+
+
+
+
+==========
+5.  Type:
+
+<UP><ENTER>
+
+What command was repeated?
+----------
+the ls -a command 
+
+
+==========
+6.  Type:
+
+<UP><UP><UP><DOWN><ENTER>
+
+What command was repeated?
+----------
+ls -a command
+
+
+==========
+7.  Type:
+
+$ ls /Vol<TAB><ENTER>
+
+What is the result of pressing tab?
+----------
+
+Git 2.19.0 Mavericks Intel Universal	Macintosh HD
+
+==========
+8.  Type:
+
+$ ls doesnotexist
+
+Copy and paste the output below.
+----------
+
+ No such file or directory
+
+==========
+9.  What key do I press to go to the previous command?
+----------
+
+up button
+
+==========
+10.  Name two flags that we used in this exercise.
+----------
+ls -a Documents 
+ls
+
+
+
+
+==========
+11.  What key do I use to attempt to autocomplete a command or a file name?
+----------
+Enter 
+
+
+==========
+12.  What was the main command that we used throughout this exercise?
+----------
+
+ls
+
+==========
+13.  Name one argument that we passed to the command.
+----------
+ls -a Desktop 
+
+
+==========
+14.  Type:
+
+$ foo<ENTER>
+
+Copy and paste the output below.
+----------
+-bash: foo: command not found
+
+
+
+==========
+15.  Type:
+
+<UP><ENTER>
+
+Copy and paste the output below.
+----------
+
+-bash: foo: command not found
+
+==========
+16.  In the following line....
+
+$ ls -a Desktop
+
+What is the command, flag, argument, and prompt?
+
+ls is command -a is the argument and Desktop is the prompt
+----------
